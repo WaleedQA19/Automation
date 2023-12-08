@@ -32,6 +32,8 @@ public class Scripting {
         driver.findElement(By.id("finish")).click();
         driver.findElement(By.id("back-to-products")).click();
         
+        driver.close();
+        driver.quit();
 
 	}
 
